@@ -54,7 +54,141 @@ Languages:
               s:ds="{0B5A5C45-D84B-4FB0-A5F9-A0AD259047A8}"
               s:id="{F8C855CF-587B-4F5A-9225-8790805A84B4}"
               s:par=""
-              s:ph="main" />
+              s:ph="main">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{78C36221-310B-47FF-B69C-958F96AE571E}"
+                    s:name="Surprize">
+                    <conditions>
+                      <condition
+                        uid="06564F48F52640948AE58C864B74C1B7"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{A5CB3FD0-B9C8-4EFA-AD32-772DB8099564}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="C76C0C6A45A741FDAD1A43FB5B8A7A41"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{0057A4B5-EECC-4CE8-B3C6-6EEAB15866D0}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{2C162632-66AF-4DCC-9147-B97BA3D3AE2E}"
+                    s:name="Sadness">
+                    <conditions>
+                      <condition
+                        uid="5E99C7DEBA76482EAFC531FF573302DC"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{AD075D6E-986E-4456-ACB9-C83BD143ABA3}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="2523A9C71B7C4F09987A3B500A73EE3B"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3A924850-7782-4247-AC8D-162F3736AF71}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{4598AB30-579A-4F00-B0E2-B0EAC506142A}"
+                    s:name="Neutral">
+                    <conditions>
+                      <condition
+                        uid="E73AE938E2C54E4B96DFF0F9AD782069"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{BF9D8A33-6B6D-4EAC-9911-9F7511F10082}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9238538358294C39BBCF6F799BBC72F3"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{7EEA87EE-B202-41C0-A4C8-C9B4C41E26E6}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E16782B3-AEB4-42DA-83D9-31A5D355B98C}"
+                    s:name="Happiness">
+                    <conditions>
+                      <condition
+                        uid="9D91D040108C4262B9070EF11A663739"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{898F2331-CE82-496B-BA38-B3E3645CAA5E}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="74A578CAB9F84878B59A379611F4C23A"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{9652CC3F-F5D3-4EE0-AAFB-F8CA4C3BED29}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{59A42995-F195-488A-9020-BBC2FE0EABD2}"
+                    s:name="Fear">
+                    <conditions>
+                      <condition
+                        uid="AF5BEBB60C484636AB847D7F6E489D9B"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{736F54E9-BDE4-435B-9660-CC67D7AF66DB}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="2867BDD5D6BD4D49ABBE3FC08CC14CBD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{B807549B-3221-48A7-8147-191325D82189}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{1A6A6B00-F069-4764-9587-85E9E3DE8350}"
+                    s:name="Disgust">
+                    <conditions>
+                      <condition
+                        uid="D9D7BC0F3FFD4F1EAE89C1BAEECFF415"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{5E8A9BEF-6823-451E-BBD9-F46097863035}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="4FCFA4ACF8D44A3C958E84E71312A779"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3A098D93-C736-4CD4-AE9F-4E8DA79660B8}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{27322D6F-D58B-449F-8A92-9A9D92278CD3}"
+                    s:name="Anger">
+                    <conditions>
+                      <condition
+                        uid="08FEEFB92BB3478E8C0AEE51725A6811"
+                        s:id="{89E3DE69-39DC-47D0-B34F-874C2BD8FD8A}"
+                        s:operatorid="{F14E454B-55AA-4ED4-8BF6-F94F4762C81F}"
+                        s:value="{0B3D0FF9-08E3-491D-A332-555CC018C8FE}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="142DB0BFFCA149B1B62C4A597922150C"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{DF6D2478-3F12-4822-AA0F-98F42DB68A0B}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="23AA6783D5E44FBE8D88CA2526EDBF08"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"

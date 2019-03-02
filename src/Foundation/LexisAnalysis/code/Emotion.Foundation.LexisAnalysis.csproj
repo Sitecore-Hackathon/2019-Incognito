@@ -528,6 +528,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Enum\Feelings.cs" />
     <Compile Include="Facets\EmotionFacet.cs" />
     <Compile Include="Mapping\EmotionProfile.cs" />
     <Compile Include="Models\Emotions.cs" />

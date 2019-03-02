@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
   Hint: Type
-  Value: Sitecore.ContentTesting.Rules.Conditions.CountryCondition,Sitecore.ContentTesting
+  Value: Emotion.Feature.Rules.Rules.FeelingCondition,Emotion.Feature.Rules
 Languages:
 - Language: da
   Fields:
@@ -58,7 +58,7 @@ Languages:
         sitecore\admin
     - ID: "af321234-4eb9-4ef5-9197-65903351939c"
       Hint: Text
-      Value: "where the feeling [operatorid,ListOperator,,compares to] [value,TreeOrList,root=/sitecore/system/Settings/Feature/Emotion/Feelings&selection={A08790DA-FAE8-4DDA-A4F8-CFE38EACE722},specific feeling]"
+      Value: "where the feeling [operatorid,ListOperator,,compares to] [value,TreeOrList,root=/sitecore/system/Settings/Feature/Emotion/Feelings&selection={DD712B19-3220-4CC5-B7BB-99BE2BF5D875},specific feeling]"
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

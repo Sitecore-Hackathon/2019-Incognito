@@ -19,7 +19,7 @@ namespace Emotion.Feature.Controls.Controllers
             var c = serv.GetCurrentContact();
             var m = new EmotionManager();
             m.FillEmotionFacet(model.Text);
-            return View(model);
+            return Redirect(HttpContext.Request.UrlReferrer.ToString());
         }
     }
 }

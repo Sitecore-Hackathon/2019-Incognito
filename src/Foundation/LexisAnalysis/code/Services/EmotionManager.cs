@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using AutoMapper;
+using Emotion.Foundation.LexisAnalysis.Enum;
 using Emotion.Foundation.LexisAnalysis.Facets;
 using Emotion.Foundation.LexisAnalysis.Models;
 using Sitecore.XConnect;
@@ -38,6 +39,25 @@ namespace Emotion.Foundation.LexisAnalysis.Services
                 contact = _xConnectService.GetCurrentContact();
             }
             _xConnectService.SetEmotionFacet(contact, facet);
+        }
+
+        public Feelings GetFeeling(Contact contact = null)
+        {
+            if (contact == null)
+            {
+                contact = _xConnectService.GetCurrentContact();
+            }
+
+            var emotions = contact.GetFacet<EmotionFacet>(EmotionFacet.DefaultFacetKey);
+            if (emotions != null)
+            {
+                if (System.Enum.TryParse(emotions.Feeling, true, out Feelings myStatus))
+                {
+                    return myStatus;
+                }
+            }
+
+            return Feelings.NotAvailable;
         }
     }
 }
