@@ -318,4 +318,7 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+
+#other
 *.ignore
+*-lock.json
