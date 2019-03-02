@@ -15,10 +15,12 @@ namespace Emotion.Feature.Controls.Controllers
         [HttpPost]
         public ActionResult Feedback(Feedback model)
         {
-            var serv = new XConnectService();
-            var c = serv.GetCurrentContact();
-            var m = new EmotionManager();
-            m.FillEmotionFacet(model.Text);
+            if (!string.IsNullOrEmpty(model.Text))
+            {
+                var m = new EmotionManager();
+                m.FillEmotionFacet(model.Text);
+            }
+
             return Redirect(HttpContext.Request.UrlReferrer.ToString());
         }
     }
