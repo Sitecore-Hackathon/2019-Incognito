@@ -40,6 +40,23 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F2CFEAE0-48F9-48A3-B9A7-C1C3D21D759B}"
+              p:after="*[1=2]"
+              s:ds="{0B5A5C45-D84B-4FB0-A5F9-A0AD259047A8}"
+              s:id="{F8C855CF-587B-4F5A-9225-8790805A84B4}"
+              s:par=""
+              s:ph="main" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20190302T083820Z

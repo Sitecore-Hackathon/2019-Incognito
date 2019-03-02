@@ -1,0 +1,14 @@
+﻿---
+ID: "beb2083c-77cf-422d-aac3-4f8e3b7a99bf"
+Parent: "4be096cf-3b59-4f16-8224-a4c0492a80da"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Emotion/Controls/ImageBanner/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T155256Z

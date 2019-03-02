@@ -1,0 +1,22 @@
+﻿---
+ID: "0057a4b5-eecc-4ce8-b3c6-6eeab15866d0"
+Parent: "1f8398ad-eeb1-4e2a-9be7-db7319b77e1c"
+Template: "4be096cf-3b59-4f16-8224-a4c0492a80da"
+Path: /sitecore/content/DemoContent/ImageBanners/Surprize
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T161234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d269bf02-d887-4501-bab6-d7d87c8da8cd"
+      Hint: Image
+      Value: |
+        <image mediaid="{A97D5F5A-DCE0-4A59-933B-E927E9181F26}" />

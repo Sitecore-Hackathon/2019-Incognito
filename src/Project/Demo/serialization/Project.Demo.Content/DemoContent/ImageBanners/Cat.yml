@@ -1,0 +1,22 @@
+﻿---
+ID: "0b5a5c45-d84b-4fb0-a5f9-a0ad259047a8"
+Parent: "1f8398ad-eeb1-4e2a-9be7-db7319b77e1c"
+Template: "4be096cf-3b59-4f16-8224-a4c0492a80da"
+Path: /sitecore/content/DemoContent/ImageBanners/Cat
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T161217Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d269bf02-d887-4501-bab6-d7d87c8da8cd"
+      Hint: Image
+      Value: |
+        <image mediaid="{1789EA7A-42FE-4DB6-B9E4-2EA7E129383E}" />

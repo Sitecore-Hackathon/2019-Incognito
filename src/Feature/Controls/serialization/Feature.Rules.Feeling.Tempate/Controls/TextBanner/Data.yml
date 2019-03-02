@@ -1,0 +1,14 @@
+﻿---
+ID: "e62eaa14-3f89-4575-a8c0-2de55803c673"
+Parent: "9f74b7c3-4302-46c6-874c-03b2a247bac5"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Emotion/Controls/TextBanner/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T155330Z
