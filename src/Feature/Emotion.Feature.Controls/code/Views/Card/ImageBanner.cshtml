@@ -2,4 +2,6 @@
 @using Sitecore.Mvc
 @model RenderingModel
 
-@Html.Sitecore().Field("Image")
+<div>
+    @Html.Sitecore().Field("Image", new { @mw = "500" })
+</div>

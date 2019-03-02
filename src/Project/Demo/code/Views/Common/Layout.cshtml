@@ -1,27 +1,18 @@
-﻿@using System.Web.Optimization
-@using Sitecore.Mvc
+﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Analytics.Extensions
-@{
-    Layout = null;
-}
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Emotion detection demo</title>
-    @Styles.Render("~/Content/css")
 </head>
 <body>
     <div class="container body-content">
         @Html.Sitecore().Placeholder("main")
     </div>
-    <hr />
     <footer>
-        <p>© @DateTime.Now.Year - Anton Tishchenko</p>
+        <p>2019 - Anton Tishchenko</p>
     </footer>
     @Html.Sitecore().VisitorIdentification()
-    @Scripts.Render("~/bundles/bootstrap")
 </body>
 </html>
