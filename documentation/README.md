@@ -78,7 +78,24 @@ Only if you had some troubles with running python web application on port 8080, 
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+Module is build on [open source Python web application](https://github.com/Antonytm/lexis-text-analysis). This application uses support-vector machine to get emotion(s) from the text. Model was trained on 75k tweets, seperated in six categories, based on their hashtag: anger, disgust, fear, happiness, neutral, sadness, sarcasm, surprise.
+
+![Python web app](images/React.png?raw=true "Python web app")
+
+It is important not only what user do on website, but also his feeling. Sitecore OOTB Analytics could gather only 'dry' data about users interactions with website. But it doesn't give any information about his feeling. It is possible to get information what emotions user feels by analything any of texts that he enters on website. It could be feedack, signup newsletter, review and any other forms.
+
+Module comes with sample Feedback forms which shows how text data could be processed into emotions facet into database.
+
+### Items location
+1. Demo page: /sitecore/content/Home/Feedback
+2. Content for personalization deom: /sitecore/content/DemoContent
+3. Layout: /sitecore/layout/Layouts/Project/Emotion/Demo/Layout
+4. Renderings: /sitecore/layout/Renderings/Feature/Emotion/Controls
+5. Media items for demo: /sitecore/media library/Project/Demo
+6. Rules defintion, tag, configuration for Experience Editor: /sitecore/system/Settings/Rules/Definitions/Elements/Emotion, /sitecore/system/Settings/Rules/Definitions/Tags/Emotion, /sitecore/system/Settings/Rules/Conditional Renderings/Tags/Emotion
+7. Templates /sitecore/templates/Feature/Emotion
+
+
 
 Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
 
