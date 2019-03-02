@@ -54,7 +54,7 @@ Expected result: The app on port 8080 was started. It is by default, but you cou
 Expected result: React web application on 3000 port is started, you are able to send text data and recieve graph with emotions
 
 13. Open sc.package directory in this repository. Download ..... package.
-14. Install ....... package on Sitecore instance. In case of any conflicts, please choose Overwrite option and continue.
+14. Install ....... package on Sitecore instance. In case of any conflicts, please choose Merge-Clear option and continue.
 15. Run smart publish of website
 16. If you have used any other port from 8080 step then open `Emotion.Foundation.LexisAnalysis.config` configuration and change `Emotion.Foundation.LexisAnalysis.LexisTextAnalysisServerUrl` setting
 17. Make additional configuration for XConnect. It is described [here](https://doc.sitecore.com/developers/91/sitecore-experience-platform/en/deploy-a-custom-model.html) in details
