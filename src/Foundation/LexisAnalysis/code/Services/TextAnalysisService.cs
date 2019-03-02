@@ -7,7 +7,7 @@ using RestSharp;
 
 namespace Emotion.Foundation.LexisAnalysis.Services
 {
-    public class TextAnalysisService
+    public class TextAnalysisService : ITextAnalysisService
     {
         public LexisAnalysisResponse GetEmotions(LexisAnalysisRequest request)
         {
