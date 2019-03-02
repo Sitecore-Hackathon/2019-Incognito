@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-using Emotion.Feature.Rules.Model;
+using Emotion.Feature.Controls.Model;
 using Emotion.Foundation.LexisAnalysis.Services;
 
 namespace Emotion.Feature.Controls.Controllers
