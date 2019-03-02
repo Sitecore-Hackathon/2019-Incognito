@@ -1,0 +1,54 @@
+{
+  "Name": "XConnectEmotionModel",
+  "Version": "0.1",
+  "References": [
+    {
+      "Name": "XConnect",
+      "Version": "1.0"
+    },
+    {
+      "Name": "Sitecore.XConnect.Collection.Model",
+      "Version": "9.0"
+    }
+  ],
+  "Types": {
+    "Emotion.Foundation.LexisAnalysis.Facets.EmotionFacet": {
+      "Type": "Facet",
+      "BaseType": "Sitecore.XConnect.Facet",
+      "ClrType": "Emotion.Foundation.LexisAnalysis.Facets.EmotionFacet, Emotion.Foundation.LexisAnalysis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Properties": {
+        "Feeling": {
+          "Type": "String"
+        },
+        "Anger": {
+          "Type": "Single"
+        },
+        "Disgust": {
+          "Type": "Single"
+        },
+        "Fear": {
+          "Type": "Single"
+        },
+        "Happiness": {
+          "Type": "Single"
+        },
+        "Neutral": {
+          "Type": "Single"
+        },
+        "Sadness": {
+          "Type": "Single"
+        },
+        "Surprise": {
+          "Type": "Single"
+        }
+      }
+    }
+  },
+  "Facets": [
+    {
+      "Target": "Contact",
+      "Name": "EmotionFacet",
+      "Type": "Emotion.Foundation.LexisAnalysis.Facets.EmotionFacet"
+    }
+  ]
+}

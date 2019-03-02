@@ -464,7 +464,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Model\Feedback.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
