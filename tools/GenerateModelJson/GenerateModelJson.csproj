@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{86B06F40-9FD5-4C93-91A4-E9724457D35E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>GenerateModelJson</RootNamespace>
+    <AssemblyName>GenerateModelJson</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,7 +78,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\Foundation\LexisAnalysis\code\Emotion.Foundation.LexisAnalysis.csproj">
+    <ProjectReference Include="..\..\src\Foundation\LexisAnalysis\code\Emotion.Foundation.LexisAnalysis.csproj">
       <Project>{05e67a67-ea7c-48ef-a03a-49fc00ba7485}</Project>
       <Name>Emotion.Foundation.LexisAnalysis</Name>
     </ProjectReference>

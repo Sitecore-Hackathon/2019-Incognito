@@ -1,12 +1,7 @@
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Emotion.Foundation.LexisAnalysis.Models;
 
-namespace ConsoleApp1
+namespace GenerateModelJson
 {
     class Program
     {
