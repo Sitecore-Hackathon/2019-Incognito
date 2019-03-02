@@ -1,0 +1,14 @@
+﻿---
+ID: "2e974ae1-c1e1-4205-b9e9-ebde705cd061"
+Parent: "dd712b19-3220-4cc5-b7bb-99be2bf5d875"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Emotion/Feeling/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T142910Z

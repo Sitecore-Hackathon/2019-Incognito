@@ -1,0 +1,97 @@
+﻿---
+ID: "89e3de69-39dc-47d0-b34f-874c2bd8fd8a"
+Parent: "e73b1fdf-89eb-4c86-9213-4f22d3c089d0"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Emotion/Feeling
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.ContentTesting.Rules.Conditions.CountryCondition,Sitecore.ContentTesting
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Betingelse for land
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100445Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor landet [operatorid,ListOperator,,compares to] [value,TreeOrList,root=/sitecore/system/Settings/Analytics/Lookups/Countries&selection={A08790DA-FAE8-4DDA-A4F8-CFE38EACE722},specific countries]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Bedingung Land
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T100728Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo das Land [operatorid,ListOperator,,compares to] [value,TreeOrList,root=/sitecore/system/Settings/Analytics/Lookups/Countries&selection={A08790DA-FAE8-4DDA-A4F8-CFE38EACE722},specific countries]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090202T172411Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the feeling [operatorid,ListOperator,,compares to] [value,TreeOrList,root=/sitecore/system/Settings/Feature/Emotion/Feelings&selection={A08790DA-FAE8-4DDA-A4F8-CFE38EACE722},specific feeling]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 国
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101015Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： [value,TreeOrList,root=/sitecore/system/Settings/Analytics/Lookups/Countries&selection={A08790DA-FAE8-4DDA-A4F8-CFE38EACE722},特定の国][operatorid,ListOperator,,と比較する]の国"
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 国家条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181101T101300Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "如果国家 [operatorid,ListOperator,,比较与] [value,TreeOrList,root=/sitecore/system/Settings/Analytics/Lookups/Countries&selection={A08790DA-FAE8-4DDA-A4F8-CFE38EACE722},指定国家]"

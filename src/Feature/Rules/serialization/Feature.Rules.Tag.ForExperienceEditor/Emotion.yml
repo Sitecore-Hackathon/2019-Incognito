@@ -1,0 +1,23 @@
+﻿---
+ID: "61467559-38c8-47da-97c5-c91e905532f4"
+Parent: "6f9a8f6e-5317-47e3-aeca-d7cbef06ec9a"
+Template: "854ba861-63ea-4a0c-8c7b-541e9a7ec4c1"
+Path: /sitecore/system/Settings/Rules/Conditional Renderings/Tags/Emotion
+DB: master
+SharedFields:
+- ID: "42f77151-098f-496a-94cf-590b7edeeabe"
+  Hint: Tags
+  Type: Multilist
+  Value: "{2DD89C7D-27F2-4441-8E6B-C93DED5BF48E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T145338Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
