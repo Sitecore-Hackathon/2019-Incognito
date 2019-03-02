@@ -14,15 +14,13 @@ What is the purpose of your module? What problem does it solve and how does it d
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
+Module dependencies
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Sitecore 9.1 (XP0)
+- Python 3+ (including PIP package manager)
+- NodeJS (including NPM package manager)
 
 ## Installation
-
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
 1. Module depends on Python web based application that analyzes given user text input using SVM and provides the emotion(s) 
 2. Navigate to [SubModule](https://github.com/frisibeli/lexis-text-analysis/tree/b20b13c39d53e26a8518e41689aa4df81158ddd7) for more details
