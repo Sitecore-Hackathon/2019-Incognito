@@ -64,7 +64,7 @@ Expected result: React web application on 3000 port is started, you are able to 
 15. Run smart publish of website
 16. If you have used any other port from 8080 step then open Emotion.Foundation.LexisAnalysis.config configuration and change `Emotion.Foundation.LexisAnalysis.LexisTextAnalysisServerUrl` setting
 17. Make additional configuration for XConnect. It is described [here](https://doc.sitecore.com/developers/91/sitecore-experience-platform/en/deploy-a-custom-model.html) in details
-18. Open sc.package directory and download [XConnectEmotionModel, 0.1.json](../sc.package/XConnectEmotionModel, 0.1.json) file
+18. Open sc.package directory and download [XConnectEmotionModel, 0.1.json](../sc.package/XConnectEmotionModel,%200.1.json) file
 19. Place `XConnectEmotionModel, 0.1.json` to `[xConnect root folder]\App_Data\Models` and `[xConnect root folder]\App_data\jobs\continuous\IndexWorker\App_Data\Models`
 20. Copy `Emotion.Foundation.LexisAnalysis.dll` from Sitecore bin folder to `[xConnect root folder]\App_Data\jobs\continuous\AutomationEngine`
 21. Open sc.package directory and download [sc.Emotions.xml](../sc.package/sc.Emotions.xml) file
