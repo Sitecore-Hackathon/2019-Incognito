@@ -197,7 +197,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="Controllers\CardsController.cs" />
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Model\Feedback.cs" />

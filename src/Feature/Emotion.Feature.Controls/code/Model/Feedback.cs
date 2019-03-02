@@ -1,4 +1,4 @@
-﻿namespace Emotion.Feature.Rules.Model
+﻿namespace Emotion.Feature.Controls.Model
 {
     public class Feedback
     {

@@ -4,6 +4,9 @@ using Emotion.Foundation.LexisAnalysis.Services;
 
 namespace Emotion.Feature.Controls.Controllers
 {
+    /// <summary>
+    /// Controller that demonstrate usage of API for 
+    /// </summary>
     public class FormController : Controller
     {
         public ActionResult Feedback()
@@ -12,6 +15,11 @@ namespace Emotion.Feature.Controls.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// Simple form that process text data and get emotions as outcome
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Feedback(Feedback model)
         {
