@@ -1,16 +1,10 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Best use of xConnect and/or Universal Tracker
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+Purpose of module is to define Sitecore website user(contact) mood by analyzing data that he enters in forms on website. And depending on his mood show him different data. 
 
 ## Pre-requisites
 
@@ -62,7 +56,7 @@ Expected result: React web application on 3000 port is started, you are able to 
 13. Open sc.package directory in this repository. Download ..... package.
 14. Install ....... package on Sitecore instance. In case of any conflicts, please choose Overwrite option and continue.
 15. Run smart publish of website
-16. If you have used any other port from 8080 step then open Emotion.Foundation.LexisAnalysis.config configuration and change `Emotion.Foundation.LexisAnalysis.LexisTextAnalysisServerUrl` setting
+16. If you have used any other port from 8080 step then open `Emotion.Foundation.LexisAnalysis.config` configuration and change `Emotion.Foundation.LexisAnalysis.LexisTextAnalysisServerUrl` setting
 17. Make additional configuration for XConnect. It is described [here](https://doc.sitecore.com/developers/91/sitecore-experience-platform/en/deploy-a-custom-model.html) in details
 18. Open sc.package directory and download [XConnectEmotionModel, 0.1.json](../sc.package/XConnectEmotionModel,%200.1.json) file
 19. Place `XConnectEmotionModel, 0.1.json` to `[xConnect root folder]\App_Data\Models` and `[xConnect root folder]\App_data\jobs\continuous\IndexWorker\App_Data\Models`
@@ -73,22 +67,13 @@ Expected result: React web application on 3000 port is started, you are able to 
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
+No additional configuration is required. 
+Only if you had some troubles with running python web application on port 8080, you will need to change configuration in `Emotion.Foundation.LexisAnalysis.config` file
 
 ```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
+<settings>
+  <setting name="Emotion.Foundation.LexisAnalysis.LexisTextAnalysisServerUrl" value="http://localhost:8080/api/predict"/>
+</settings>
 ```
 
 ## Usage
