@@ -9,7 +9,6 @@ module.exports.config = gulpConfig;
 
 function cleanProjectFiles(layerName) {
     const filesToDelete = [
-        gulpConfig.webRoot + '/bin/Helixbase.' + layerName + '.*',
         gulpConfig.webRoot + '/App_Config/Include/' + layerName
     ];
     console.log("Removing " + layerName + " configs/binaries");
