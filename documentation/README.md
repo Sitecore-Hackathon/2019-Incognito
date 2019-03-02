@@ -24,7 +24,47 @@ Does your module rely on other Sitecore modules or frameworks?
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
+1. Module depends on Python web based application that analyzes given user text input using SVM and provides the emotion(s) 
+2. Navigate to [SubModule](https://github.com/frisibeli/lexis-text-analysis/tree/b20b13c39d53e26a8518e41689aa4df81158ddd7) for more details
+3. Install Python 3 (If you don't have it)
+4. Install NodeJS (If you don't have it)
+5. Install virtualenv
+```cmd
+pip install virtualenv
+```
+6. Clone the repository
+```
+git clone https://github.com/frisibeli/lexis-text-analysis.git
+```
+7. Initialize and activate virtualenv
+```
+cd lexis-text-analysis/backend
+virtualenv -p python3 .
+```
+if it throws error then try 
+```
+virtualenv env -p C:/Python37/python.exe
+```
+8. Assuming that you have already initialized virtualenv and you are in `lexis-text-analysis/backend`:
+Install python requirements using pip
+```
+pip install -r requirements.txt
+```
+9. Execute application
+```
+python app.py
+```
+Expected result: The app on port 8080 was started. It is by default, but you could be changed in app.py
+
+10. Veryfy that python web app works: 11-12 steps
+11. Navigate to `lexis-text-analysis/frontend` and execute `npm install`
+12. Execute `npm start`
+Expected result: React web application on 3000 port is started, you are able to send text data and recieve graph with emotions
+
+13.
+
+
+Use the Sitecore Installation wizard to install the [package](#link-to-package)
 2. ???
 3. Profit
 
