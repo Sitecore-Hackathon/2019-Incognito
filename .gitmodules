@@ -1,0 +1,3 @@
+[submodule "lib/lexis-text-analysis"]
+	path = lib/lexis-text-analysis
+	url = https://github.com/frisibeli/lexis-text-analysis.git
