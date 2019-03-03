@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Emotion.Foundation.LexisAnalysis.Models;
+﻿using Emotion.Foundation.LexisAnalysis.Models;
 using Emotion.Foundation.LexisAnalysis.Services;
-using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
 
