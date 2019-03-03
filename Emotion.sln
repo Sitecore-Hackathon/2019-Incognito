@@ -41,9 +41,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{9D1A1EA7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateModelJson", "tools\GenerateModelJson\GenerateModelJson.csproj", "{86B06F40-9FD5-4C93-91A4-E9724457D35E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion.Feature.Rules", "src\Feature\Emotion.Feature.Rules\code\Emotion.Feature.Rules.csproj", "{EB036700-C5DD-4F1D-A5C8-657D6E5CD969}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion.Feature.Rules", "src\Feature\Rules\code\Emotion.Feature.Rules.csproj", "{EB036700-C5DD-4F1D-A5C8-657D6E5CD969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion.Feature.Controls", "src\Feature\Emotion.Feature.Controls\code\Emotion.Feature.Controls.csproj", "{BED10082-B25D-447F-8FD3-20B685FC6D92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emotion.Feature.Controls", "src\Feature\Controls\code\Emotion.Feature.Controls.csproj", "{BED10082-B25D-447F-8FD3-20B685FC6D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
