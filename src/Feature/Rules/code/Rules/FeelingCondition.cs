@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using Emotion.Foundation.LexisAnalysis.Enum;
 using Emotion.Foundation.LexisAnalysis.Services;
 using Sitecore.Data;
@@ -9,6 +7,10 @@ using Sitecore.Rules.Conditions;
 
 namespace Emotion.Feature.Rules.Rules
 {
+    /// <summary>
+    /// Compare current contact feeling with feeling selected(as item) in rule
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class FeelingCondition <T> : StringOperatorCondition<T> where T : RuleContext
     {
         public string Value
