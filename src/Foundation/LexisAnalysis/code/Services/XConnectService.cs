@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Emotion.Foundation.LexisAnalysis.Facets;
+﻿using Emotion.Foundation.LexisAnalysis.Facets;
 using Sitecore.Analytics.Model;
 using Sitecore.Analytics.Tracking;
 using Sitecore.Configuration;
@@ -11,16 +7,20 @@ using Sitecore.Diagnostics;
 using Sitecore.XConnect;
 using Sitecore.XConnect.Client;
 using Sitecore.XConnect.Client.Configuration;
-using Sitecore.XConnect.Collection.Model;
 using Contact = Sitecore.XConnect.Contact;
 
 namespace Emotion.Foundation.LexisAnalysis.Services
 {
     public class XConnectService : IXConnectService
     {
+        /// <summary>
+        /// Set emotion facet to contact
+        /// </summary>
+        /// <param name="contact">Contact to be updated</param>
+        /// <param name="facet">Facet to be applied to Contact</param>
         public void SetEmotionFacet(Contact contact, EmotionFacet facet)
         {
-            using (var client = Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient())
+            using (var client = SitecoreXConnectClientConfiguration.GetClient())
             {
                 try
                 {
@@ -56,6 +56,10 @@ namespace Emotion.Foundation.LexisAnalysis.Services
             emotions.Surprise = facet.Surprise;
         }
 
+        /// <summary>
+        /// Get current contact
+        /// </summary>
+        /// <returns>Current XConnect.Contact with EmotionFacet</returns>
         public Contact GetCurrentContact()
         {
             if (Factory.CreateObject("tracking/contactManager", true) is ContactManager manager)
@@ -68,7 +72,7 @@ namespace Emotion.Foundation.LexisAnalysis.Services
                         Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
 
                     var contact = client.Get<Contact>(trackerIdentifier,
-                        new Sitecore.XConnect.ContactExpandOptions(EmotionFacet.DefaultFacetKey));
+                        new ContactExpandOptions(EmotionFacet.DefaultFacetKey));
 
                     if (contact == null)
                     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using AutoMapper;
+﻿using AutoMapper;
 using Emotion.Foundation.LexisAnalysis.Facets;
 using Emotion.Foundation.LexisAnalysis.Models;
 

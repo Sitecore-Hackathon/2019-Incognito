@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using AutoMapper;
+﻿using AutoMapper;
 using Emotion.Foundation.LexisAnalysis.Enum;
 using Emotion.Foundation.LexisAnalysis.Facets;
 using Emotion.Foundation.LexisAnalysis.Models;
@@ -10,7 +6,7 @@ using Sitecore.XConnect;
 
 namespace Emotion.Foundation.LexisAnalysis.Services
 {
-    public class EmotionManager
+    public class EmotionManager : IEmotionManager
     {
         private ITextAnalysisService _analysisService;
         private IXConnectService _xConnectService;

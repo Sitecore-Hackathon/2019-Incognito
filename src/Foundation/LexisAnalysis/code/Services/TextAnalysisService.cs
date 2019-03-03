@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Emotion.Foundation.LexisAnalysis.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
@@ -9,6 +8,11 @@ namespace Emotion.Foundation.LexisAnalysis.Services
 {
     public class TextAnalysisService : ITextAnalysisService
     {
+        /// <summary>
+        /// Communicate with Python web server via API. 
+        /// </summary>
+        /// <param name="request">Text to analyze</param>
+        /// <returns></returns>
         public LexisAnalysisResponse GetEmotions(LexisAnalysisRequest request)
         {
             try
@@ -42,9 +46,6 @@ namespace Emotion.Foundation.LexisAnalysis.Services
             }
         }
 
-        public virtual string LexisServerApiUrl
-        {
-            get { return Sitecore.Configuration.Settings.GetSetting(Constants.Settings.LexisTextAnalysisServerUrl); }
-        }
+        public virtual string LexisServerApiUrl => Sitecore.Configuration.Settings.GetSetting(Constants.Settings.LexisTextAnalysisServerUrl);
     }
 }
